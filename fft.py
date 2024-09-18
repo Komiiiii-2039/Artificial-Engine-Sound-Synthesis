@@ -12,8 +12,8 @@ def read_wave_file(file_path):
     return data, sample_rate  # 10秒間のデータを使用
 
 # wavから読んだデータをfftしてプロットする
-data_output, sapmle_rate_output = read_wave_file("porsche_911_generated_engine_sound.wav")
-data_input, sample_rate_input = read_wave_file("sample/porsche_911_original.wav")
+data_output, sapmle_rate_output = read_wave_file("crown_athlete_650.wav")
+data_input, sample_rate_input = read_wave_file("sample/crown-athlete_650.wav")
 N_output = len(data_output)
 N_input = len(data_input)
 
