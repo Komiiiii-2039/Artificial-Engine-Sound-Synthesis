@@ -9,7 +9,6 @@ def process_csv(csv_file):
     print(df.head())
     
     # 速度の単位を除去し、数値に変換
-    print(df['speed[km/h]'][0].str.replace(' kilometer_per_hour', ''))
     df['speed'] = df['speed[km/h]'].str.replace(' kilometer_per_hour', '').astype(float)
     
     # 回転数の単位を除去し、数値に変換
