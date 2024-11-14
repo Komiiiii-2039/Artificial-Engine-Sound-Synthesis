@@ -1,6 +1,8 @@
 # Artificial-Engine-Sound-Synthesis
+Something wrong... Not working now.
 Implementation of Artificial Engine Sound Synthesis
 Base on Min's "Artificial Engine Sound Synthesis Method for Modification of the Acoustic Characteristics of Electric Vehicles" (DOI : 10.1155/2018/5209207)
+
 
 # Implementation
 Engine sound consist of mechanical sound and combustion sound.
